@@ -65,15 +65,16 @@ const About = () => {
                         </div>
 
                         {/* Info Card */}
-                        <div className="mb-10 max-md:hidden">
-                            <div className="relative w-[955px] p-1 rounded-[30px] bg-gradient-to-br from-blue-800 to-blue-950 shadow-xl shadow-blue-950/40 border border-blue-600/40 backdrop-blur-lg">
-                                <div className="relative rounded-[24px] bg-[#0b1d3a]/80 px-10 py-12 text-white backdrop-blur-md shadow-inner">
+                        <div className="mb-10 w-full">
+                            <div className="relative w-full max-w-[955px] mx-auto p-1 rounded-[30px] bg-gradient-to-br from-blue-800 to-blue-950 shadow-xl shadow-blue-950/40 border border-blue-600/40 backdrop-blur-lg">
+                                <div className="relative rounded-[24px] bg-[#0b1d3a]/80 px-6 py-10 md:px-10 md:py-12 text-white backdrop-blur-md shadow-inner">
                                     <span className="absolute top-6 left-8 w-3 h-3 rounded-full bg-p2" />
                                     <span className="absolute top-6 left-14 w-3 h-3 rounded-full bg-s3" />
                                     <span className="absolute top-6 left-20 w-3 h-3 rounded-full bg-p1/15" />
 
-                                    <div className="text-lg space-y-3 leading-relaxed tracking-wide">
-                                        <h4 className="text-2xl font-semibold mb-4 border-b border-white/20 pb-2">Cyber Compliance Hub Admin</h4>
+                                    <div className="text-base md:text-lg space-y-3 leading-relaxed tracking-wide">
+                                        <h4 className="text-xl md:text-2xl font-semibold mb-4 border-b border-white/20 pb-2">Cyber Compliance Hub Admin</h4>
+                                        <h1 className="text-xl md:text-2xl font-semibold mb-4">Contact Us:</h1>
                                         <p><span className="font-semibold">Address:</span> London United Kingdom</p>
                                         <p><span className="font-semibold">Opening and closing times:</span> there’s none.</p>
                                         <p><span className="font-semibold">Email:</span> <a href="mailto:cybercompliancehub@outlook.com" className="underline text-blue-300 hover:text-blue-400">cybercompliancehub@outlook.com</a></p>

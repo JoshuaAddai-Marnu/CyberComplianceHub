@@ -13,7 +13,7 @@ const Hero = () => {
                         <h1 className="mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12">
                             At Cyber Compliance Hub,
                         </h1>
-                        <p className="max-w-440 mb-14 body-1 max-md:mb-10">
+                        <p className="max-w-440 mb-14 text-[1.1rem] max-md:mb-10">
                             we specialize in providing world-class cybersecurity assurance services that help businesses of all sizes strengthen their
                             security posture. Our expertise lies in helping organizations implement and maintain key industry standards such as ISO 27001,
                             GDPR, and ISO 20000, ensuring that they stay compliant and secure in an ever-evolving digital landscape. Let us help you navigate

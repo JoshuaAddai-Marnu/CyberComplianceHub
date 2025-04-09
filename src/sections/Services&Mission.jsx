@@ -1,7 +1,7 @@
 import { Element } from "react-scroll";
 import { servicesMission } from "../constants/index.jsx";
 
-const Features = () => {
+const ServicesMission = () => {
     return (
         <section>
             <Element name="services & Mission">
@@ -28,7 +28,7 @@ const Features = () => {
                                 <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-md:h5">
                                     {title}
                                 </h2>
-                                <p className="mb-11 body-1 max-md:mb-8 max-md:body-3">{text}</p>
+                                <p className="text-[1.1rem] mb-11 body-1 max-md:mb-8 max-md:body-3">{text}</p>
                             </div>
                         ))}
                     </div>
@@ -38,4 +38,4 @@ const Features = () => {
     );
 };
 
-export default Features;
+export default ServicesMission;
